@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 400px;
+    /* color: rgb(14, 14, 164); */
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 3000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+  
+    height: 230px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  
